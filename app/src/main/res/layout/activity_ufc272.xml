@@ -6,4 +6,118 @@
     android:layout_height="match_parent"
     tools:context=".UFC272">
 
+    <TextView
+        android:id="@+id/ufc272Lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UFC 272"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <EditText
+        android:id="@+id/fighter7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Colby Covington"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/vsLbl4"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="VS"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+        android:id="@+id/fighter8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Jorge Masvidal"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+        android:id="@+id/fighter9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Edson Barboza"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/vsLbl5"
+        android:layout_width="79dp"
+        android:layout_height="44dp"
+        android:text="VS"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/fighter10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Bryce Mitchell"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/fighter11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Kevin Holland"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/vsLbl6"
+        android:layout_width="82dp"
+        android:layout_height="39dp"
+        android:text="VS"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <EditText
+        android:id="@+id/fighter12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Alex Oliveira"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/backBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="514dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

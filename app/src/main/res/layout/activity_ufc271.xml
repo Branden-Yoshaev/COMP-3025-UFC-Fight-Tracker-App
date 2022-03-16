@@ -29,7 +29,7 @@
         tools:layout_editor_absoluteY="178dp" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/vsLbl1"
         android:layout_width="90dp"
         android:layout_height="45dp"
         android:text="VS"
@@ -40,7 +40,7 @@
         tools:layout_editor_absoluteY="178dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName17"
+        android:id="@+id/fighter3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -51,7 +51,7 @@
         tools:layout_editor_absoluteY="298dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName20"
+        android:id="@+id/fighter5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -62,7 +62,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName19"
+        android:id="@+id/fighter6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -73,7 +73,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/vsLbl3"
         android:layout_width="82dp"
         android:layout_height="39dp"
         android:text="VS"
@@ -83,7 +83,7 @@
         tools:layout_editor_absoluteY="423dp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/vsLbl2"
         android:layout_width="79dp"
         android:layout_height="44dp"
         android:text="VS"
@@ -93,7 +93,7 @@
         tools:layout_editor_absoluteY="298dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName18"
+        android:id="@+id/fighter4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -104,7 +104,7 @@
         tools:layout_editor_absoluteY="298dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/ufc271Lbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="UFC 271"
@@ -115,7 +115,7 @@
 
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/backBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Back"
