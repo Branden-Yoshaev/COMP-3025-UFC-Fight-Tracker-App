@@ -25,7 +25,7 @@
         android:inputType="textPersonName"
         android:text="Robert Whittaker"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="713dp"
         tools:layout_editor_absoluteY="178dp" />
 
     <TextView
@@ -69,7 +69,7 @@
         android:inputType="textPersonName"
         android:text="Derek Brunson"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="713dp"
         tools:layout_editor_absoluteY="414dp" />
 
     <TextView
@@ -100,7 +100,7 @@
         android:inputType="textPersonName"
         android:text="Tai Tuivasa"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="713dp"
         tools:layout_editor_absoluteY="298dp" />
 
     <TextView
@@ -119,6 +119,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Back"
-        tools:layout_editor_absoluteX="362dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="432dp"
+        tools:layout_editor_absoluteY="595dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

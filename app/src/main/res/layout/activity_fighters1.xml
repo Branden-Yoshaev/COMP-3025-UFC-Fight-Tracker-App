@@ -6,4 +6,130 @@
     android:layout_height="match_parent"
     tools:context=".Fighters1">
 
+    <TextView
+        android:id="@+id/fighter1lbl"
+        android:layout_width="203dp"
+        android:layout_height="44dp"
+        android:text="Fighter 1"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/nameLbl"
+        android:layout_width="118dp"
+        android:layout_height="42dp"
+        android:text="Name:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/townLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hometown:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/nickNameLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nickname:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/ageLbl"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:text="Age:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/recordLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/weightClassLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Class:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+    <TextView
+        android:id="@+id/fighterNameLbl"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Israel Adesanya"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="391dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/homeTownNameLbl"
+        android:layout_width="178dp"
+        android:layout_height="36dp"
+        android:text="Lagos, Nigeria"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="393dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/nickNameNameLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Last Stylebender"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="393dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/recordNumLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21 - 1 - 0"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="393dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/ageNumLbl"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:text="31"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="393dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/weightClassNameLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Middleweight"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="391dp"
+        tools:layout_editor_absoluteY="553dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -46,7 +46,7 @@
         android:inputType="textPersonName"
         android:text="Chan Sung Jung"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="790dp"
         tools:layout_editor_absoluteY="178dp" />
 
     <EditText
@@ -78,7 +78,7 @@
         android:inputType="textPersonName"
         android:text="Petr Yan"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="790dp"
         tools:layout_editor_absoluteY="298dp" />
 
     <EditText
@@ -110,14 +110,14 @@
         android:inputType="textPersonName"
         android:text="Khamzat Chimaev"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
-        tools:layout_editor_absoluteY="414dp" />
+        tools:layout_editor_absoluteX="790dp"
+        tools:layout_editor_absoluteY="423dp" />
 
     <Button
         android:id="@+id/backBtn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Back"
-        tools:layout_editor_absoluteX="362dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="470dp"
+        tools:layout_editor_absoluteY="557dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

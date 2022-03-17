@@ -46,7 +46,7 @@
         android:inputType="textPersonName"
         android:text="Jorge Masvidal"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="728dp"
         tools:layout_editor_absoluteY="178dp" />
 
     <EditText
@@ -78,7 +78,7 @@
         android:inputType="textPersonName"
         android:text="Bryce Mitchell"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="728dp"
         tools:layout_editor_absoluteY="298dp" />
 
     <EditText
@@ -110,7 +110,7 @@
         android:inputType="textPersonName"
         android:text="Alex Oliveira"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="541dp"
+        tools:layout_editor_absoluteX="728dp"
         tools:layout_editor_absoluteY="414dp" />
 
     <Button
@@ -118,6 +118,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Back"
-        tools:layout_editor_absoluteX="362dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="440dp"
+        tools:layout_editor_absoluteY="531dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
