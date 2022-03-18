@@ -10,74 +10,90 @@
         android:id="@+id/fighter9lbl"
         android:layout_width="203dp"
         android:layout_height="44dp"
+        android:layout_marginTop="24dp"
         android:text="Fighter 9"
         android:textAlignment="center"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="28dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/nameLbl9"
         android:layout_width="355dp"
         android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
         android:text="Name: Edson Barboza"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="158dp" />
-
-    <TextView
-        android:id="@+id/townLbl"
-        android:layout_width="421dp"
-        android:layout_height="39dp"
-        android:text="Hometown: Nova Friburgo, Brazil"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <TextView
-        android:id="@+id/nickNameLbl"
-        android:layout_width="462dp"
-        android:layout_height="45dp"
-        android:text="Nickname: Junior"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="310dp" />
-
-    <TextView
-        android:id="@+id/ageLbl"
-        android:layout_width="221dp"
-        android:layout_height="36dp"
-        android:text="Age: 36"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="472dp" />
-
-    <TextView
-        android:id="@+id/recordLbl"
-        android:layout_width="326dp"
-        android:layout_height="40dp"
-        android:text="Record: 22 - 11 - 0"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fighter9lbl" />
 
     <TextView
         android:id="@+id/weightClassLbl"
         android:layout_width="361dp"
         android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
         android:text="Weight Class: Featherweight"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="552dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
+
+    <TextView
+        android:id="@+id/recordLbl"
+        android:layout_width="326dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Record: 22 - 11 - 0"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickNameLbl" />
+
+    <TextView
+        android:id="@+id/ageLbl"
+        android:layout_width="221dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Age: 36"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordLbl" />
+
+    <TextView
+        android:id="@+id/nickNameLbl"
+        android:layout_width="462dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Nickname: Junior"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/townLbl" />
+
+    <TextView
+        android:id="@+id/townLbl"
+        android:layout_width="421dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Hometown: Nova Friburgo, Brazil"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameLbl9" />
 
     <Button
         android:id="@+id/backBtn"
         android:layout_width="120dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
         android:text="Go Back"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="659dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

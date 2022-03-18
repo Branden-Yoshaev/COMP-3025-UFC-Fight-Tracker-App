@@ -10,73 +10,89 @@
         android:id="@+id/fighter8lbl"
         android:layout_width="203dp"
         android:layout_height="44dp"
+        android:layout_marginTop="24dp"
         android:text="Fighter 8"
         android:textAlignment="center"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="28dp" />
-
-    <TextView
-        android:id="@+id/nameLbl8"
-        android:layout_width="355dp"
-        android:layout_height="48dp"
-        android:text="Name: Jorge Masvidal"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="158dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/townLbl"
         android:layout_width="421dp"
         android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
         android:text="Hometown: Miami, United States"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <TextView
-        android:id="@+id/nickNameLbl"
-        android:layout_width="462dp"
-        android:layout_height="45dp"
-        android:text="Nickname: Gamebred"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameLbl8" />
 
     <TextView
         android:id="@+id/ageLbl"
         android:layout_width="221dp"
         android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
         android:text="Age: 37"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="472dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordLbl" />
 
     <TextView
         android:id="@+id/recordLbl"
         android:layout_width="326dp"
         android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
         android:text="Record: 35 - 15 - 0"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickNameLbl" />
 
     <TextView
-        android:id="@+id/weightClassLbl"
-        android:layout_width="361dp"
-        android:layout_height="35dp"
-        android:text="Weight Class: Welterweight"
+        android:id="@+id/nameLbl8"
+        android:layout_width="355dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:text="Name: Jorge Masvidal"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="552dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fighter8lbl" />
 
     <Button
         android:id="@+id/backBtn"
         android:layout_width="120dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
         android:text="Go Back"
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="659dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/weightClassLbl"
+        android:layout_width="361dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Weight Class: Welterweight"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
+
+    <TextView
+        android:id="@+id/nickNameLbl"
+        android:layout_width="462dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="Nickname: Gamebred"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/townLbl" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
