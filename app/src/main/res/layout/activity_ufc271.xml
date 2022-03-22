@@ -7,7 +7,7 @@
     tools:context=".UFC271">
 
     <Button
-        android:id="@+id/fighter1"
+        android:id="@+id/btnfighter1"
         android:layout_width="225dp"
         android:layout_height="62dp"
         android:layout_marginTop="20dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ufc271Lbl" />
 
     <Button
-        android:id="@+id/fighter2"
+        android:id="@+id/btnfighter2"
         android:layout_width="229dp"
         android:layout_height="65dp"
         android:layout_marginTop="128dp"
@@ -48,42 +48,42 @@
         app:layout_constraintTop_toBottomOf="@+id/ufc271Lbl" />
 
     <Button
-        android:id="@+id/fighter3"
+        android:id="@+id/btnfighter3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="164dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="180dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Derrick Lewis"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter1" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter1" />
 
     <Button
-        android:id="@+id/fighter5"
+        android:id="@+id/btnfighter5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:layout_marginEnd="156dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="180dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Jared Cannonier"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter3" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter3" />
 
     <Button
-        android:id="@+id/fighter6"
+        android:id="@+id/btnfighter6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="132dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Derek Brunson"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter4" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter4" />
 
     <TextView
         android:id="@+id/vsLbl3"
@@ -93,35 +93,35 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vsLbl2"
-        app:layout_constraintVertical_bias="0.616" />
+        app:layout_constraintVertical_bias="0.619" />
 
     <TextView
         android:id="@+id/vsLbl2"
         android:layout_width="91dp"
         android:layout_height="45dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="172dp"
         android:text="VS"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vsLbl1" />
 
     <Button
-        android:id="@+id/fighter4"
+        android:id="@+id/btnfighter4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="168dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Tai Tuivasa"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter2" />
 
     <TextView
         android:id="@+id/ufc271Lbl"

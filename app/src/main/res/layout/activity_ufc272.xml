@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ufc272Lbl" />
 
     <Button
-        android:id="@+id/fighter9"
+        android:id="@+id/btnfighter9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="152dp"
@@ -40,10 +40,10 @@
         android:text="Edson Barboza"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter7" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter7" />
 
     <Button
-        android:id="@+id/fighter7"
+        android:id="@+id/btnfighter7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -56,7 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ufc272Lbl" />
 
     <Button
-        android:id="@+id/fighter11"
+        android:id="@+id/btnfighter11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="192dp"
@@ -66,7 +66,7 @@
         android:text="Kevin Holland"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter9" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter9" />
 
     <TextView
         android:id="@+id/vsLbl5"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/vsLbl4" />
 
     <Button
-        android:id="@+id/fighter10"
+        android:id="@+id/btnfighter10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -91,10 +91,10 @@
         android:text="Bryce Mitchell"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter8" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter8" />
 
     <Button
-        android:id="@+id/fighter12"
+        android:id="@+id/btnfighter12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="188dp"
@@ -103,10 +103,10 @@
         android:text="Alex Oliveira"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fighter10" />
+        app:layout_constraintTop_toBottomOf="@+id/btnfighter10" />
 
     <Button
-        android:id="@+id/fighter8"
+        android:id="@+id/btnfighter8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
@@ -130,7 +130,7 @@
         app:layout_constraintTop_toBottomOf="@+id/vsLbl5" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

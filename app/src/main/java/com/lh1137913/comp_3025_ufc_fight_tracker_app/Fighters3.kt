@@ -6,6 +6,6 @@ import android.os.Bundle
 class Fighters3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_fighters4)
+        setContentView(R.layout.activity_fighters3)
     }
 }
