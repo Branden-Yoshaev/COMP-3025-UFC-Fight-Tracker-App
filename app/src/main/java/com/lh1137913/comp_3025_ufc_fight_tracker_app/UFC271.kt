@@ -8,4 +8,6 @@ class UFC271 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ufc271)
     }
+
+
 }

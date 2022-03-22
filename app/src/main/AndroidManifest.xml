@@ -28,10 +28,10 @@
             android:name=".Fighters1"
             android:exported="false" />
         <activity
-            android:name=".UFCUpcomingEvents"
+            android:name=".UFCSearch"
             android:exported="false" />
         <activity
-            android:name=".UFCSearch"
+            android:name=".UFCUpcomingEvents"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
