@@ -13,7 +13,7 @@ class UFC272 : AppCompatActivity() {
         //Fighter 7
         val fighters7 = findViewById<Button>(R.id.btnfighter7)
         fighters7.setOnClickListener {
-            val Intent = Intent(this,Fighters8::class.java)
+            val Intent = Intent(this,Fighters7::class.java)
             startActivity(Intent)
         }
 
@@ -49,6 +49,13 @@ class UFC272 : AppCompatActivity() {
         val fighters12 = findViewById<Button>(R.id.btnfighter12)
         fighters12.setOnClickListener {
             val Intent = Intent(this,Fighters12::class.java)
+            startActivity(Intent)
+        }
+
+        //Back Button 2
+        val backBtn2 = findViewById<Button>(R.id.backBtn2)
+        backBtn2.setOnClickListener {
+            val Intent = Intent(this,UFCUpcomingEvents::class.java)
             startActivity(Intent)
         }
     }

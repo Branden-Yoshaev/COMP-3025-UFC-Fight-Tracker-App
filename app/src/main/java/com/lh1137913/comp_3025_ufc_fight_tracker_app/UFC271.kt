@@ -34,21 +34,28 @@ class UFC271 : AppCompatActivity() {
         //Fighter 4
         val fighters4 = findViewById<Button>(R.id.btnfighter4)
         fighters4.setOnClickListener {
-            val Intent = Intent(this,Fighters4::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,Fighters4::class.java)
+            startActivity(intent)
         }
 
         //Fighter 5
         val fighters5 = findViewById<Button>(R.id.btnfighter5)
         fighters5.setOnClickListener {
-            val Intent = Intent(this,Fighters5::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,Fighters5::class.java)
+            startActivity(intent)
         }
 
         //Fighter 6
         val fighters6 = findViewById<Button>(R.id.btnfighter6)
         fighters6.setOnClickListener {
             val Intent = Intent(this,Fighters6::class.java)
+            startActivity(Intent)
+        }
+
+        //Back Button
+        val backBtn = findViewById<Button>(R.id.backBtn)
+        backBtn.setOnClickListener {
+            val Intent = Intent(this,UFCUpcomingEvents::class.java)
             startActivity(Intent)
         }
     }

@@ -24,7 +24,7 @@
         android:id="@+id/nameLbl14"
         android:layout_width="355dp"
         android:layout_height="48dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
         android:text="Name: Chan Sung Jung"
         android:textSize="25dp"
@@ -33,9 +33,9 @@
 
     <TextView
         android:id="@+id/nickNameLbl"
-        android:layout_width="462dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="28dp"
+        android:layout_width="385dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="Nickname: The Korean Zombie"
         android:textSize="25dp"
@@ -46,7 +46,7 @@
         android:id="@+id/weightClassLbl"
         android:layout_width="361dp"
         android:layout_height="35dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="Weight Class: Featherweight"
         android:textSize="25dp"
@@ -57,8 +57,8 @@
         android:id="@+id/recordLbl"
         android:layout_width="326dp"
         android:layout_height="40dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
         android:text="Record: 17 - 6 - 0"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
         android:id="@+id/ageLbl"
         android:layout_width="221dp"
         android:layout_height="36dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="Age: 34"
         android:textSize="25dp"
@@ -77,9 +77,9 @@
 
     <TextView
         android:id="@+id/townLbl"
-        android:layout_width="421dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="28dp"
+        android:layout_width="385dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="Hometown: Po-Hang, South Korea"
         android:textSize="25dp"
@@ -87,7 +87,7 @@
         app:layout_constraintTop_toBottomOf="@+id/nameLbl14" />
 
     <Button
-        android:id="@+id/backBtn"
+        android:id="@+id/button14"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginEnd="36dp"

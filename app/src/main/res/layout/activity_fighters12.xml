@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/nickNameLbl"
-        android:layout_width="417dp"
-        android:layout_height="44dp"
+        android:layout_width="364dp"
+        android:layout_height="47dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:text="Nickname: Cowboy"
@@ -43,8 +43,8 @@
 
     <TextView
         android:id="@+id/townLbl"
-        android:layout_width="421dp"
-        android:layout_height="39dp"
+        android:layout_width="377dp"
+        android:layout_height="53dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:text="Hometown: Brasilerio, Brazil"
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
 
     <Button
-        android:id="@+id/backBtn"
+        android:id="@+id/button12"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginEnd="28dp"

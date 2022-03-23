@@ -43,8 +43,8 @@
 
     <TextView
         android:id="@+id/nickNameLbl"
-        android:layout_width="462dp"
-        android:layout_height="45dp"
+        android:layout_width="367dp"
+        android:layout_height="43dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="32dp"
         android:text="Nickname: Tha Killa Gorilla"
@@ -76,8 +76,8 @@
 
     <TextView
         android:id="@+id/townLbl"
-        android:layout_width="421dp"
-        android:layout_height="39dp"
+        android:layout_width="375dp"
+        android:layout_height="41dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="32dp"
         android:text="Hometown: Dallas, United States"
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/nameLbl5" />
 
     <Button
-        android:id="@+id/backBtn"
+        android:id="@+id/button5"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginEnd="20dp"

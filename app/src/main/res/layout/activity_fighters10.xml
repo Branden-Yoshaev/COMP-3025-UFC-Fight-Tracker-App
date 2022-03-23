@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
 
     <Button
-        android:id="@+id/backBtn"
+        android:id="@+id/button10"
         android:layout_width="128dp"
         android:layout_height="48dp"
         android:layout_marginTop="88dp"
@@ -53,8 +53,8 @@
 
     <TextView
         android:id="@+id/townLbl"
-        android:layout_width="421dp"
-        android:layout_height="39dp"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Hometown: Texarkana, United States"
@@ -64,8 +64,8 @@
 
     <TextView
         android:id="@+id/nickNameLbl"
-        android:layout_width="462dp"
-        android:layout_height="45dp"
+        android:layout_width="356dp"
+        android:layout_height="51dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Nickname: Thug Nasty"
