@@ -28,6 +28,51 @@
             android:name=".Fighters1"
             android:exported="false" />
         <activity
+            android:name=".Fighters4"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters5"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters6"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters7"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters8"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters9"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters10"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters11"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters12"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters13"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters14"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters15"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters16"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters17"
+            android:exported="false" />
+        <activity
+            android:name=".Fighters18"
+            android:exported="false" />
+        <activity
             android:name=".UFCSearch"
             android:exported="false" />
         <activity
