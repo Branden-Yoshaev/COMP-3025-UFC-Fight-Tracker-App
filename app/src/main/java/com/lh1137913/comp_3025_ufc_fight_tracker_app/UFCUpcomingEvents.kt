@@ -65,6 +65,9 @@ class UFCUpcomingEvents : AppCompatActivity() {
 
         val uFCUpcomingEvents7 = findViewById<Button>(R.id.btnCovington)
         uFCUpcomingEvents7.setOnClickListener {
+            //Read data from firebase
+
+            //open new window passing the object from firebase
             val intent = Intent(this,Fighters7::class.java)
             startActivity(intent)
         }

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP3025UFCFightTrackerApp">
         <activity
+            android:name=".CreateFighter"
+            android:exported="false" />
+        <activity
             android:name=".GoogleActivity"
             android:exported="false" />
         <activity
@@ -76,9 +79,6 @@
             android:exported="false" />
         <activity
             android:name=".Fighters18"
-            android:exported="false" />
-        <activity
-            android:name=".UFCSearch"
             android:exported="false" />
         <activity
             android:name=".UFCUpcomingEvents"

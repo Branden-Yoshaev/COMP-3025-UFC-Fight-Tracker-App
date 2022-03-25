@@ -37,6 +37,13 @@ class GoogleActivity : AppCompatActivity() {
             val Intent = Intent(this, UFCUpcomingEvents::class.java)
             startActivity(Intent)
         }
+
+        //Create a fighter
+        val createFighterBtn = findViewById<Button>(R.id.fighterCreateBtn)!!
+        createFighterBtn.setOnClickListener {
+            val Intent = Intent(this, CreateFighter::class.java)
+            startActivity(Intent)
+        }
     }
 
     private fun checkUser() {
