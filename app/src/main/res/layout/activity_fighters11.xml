@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fighters11">
+    tools:context=".Fighters11"
+    android:background="#666666">
 
     <TextView
         android:id="@+id/fighter11lbl"
@@ -14,6 +15,7 @@
         android:text="Fighter 11"
         android:textAlignment="center"
         android:textSize="30dp"
+        android:textColor="#33BEFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +29,7 @@
         android:layout_marginTop="28dp"
         android:text="Hometown: Riverside, United States"
         android:textSize="25dp"
+        android:textColor="#33BEFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameLbl11" />
 
@@ -38,6 +41,7 @@
         android:layout_marginTop="32dp"
         android:text="Record: 22 - 7 - 0"
         android:textSize="25dp"
+        android:textColor="#33BEFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nickNameLbl" />
 
@@ -49,6 +53,7 @@
         android:layout_marginTop="28dp"
         android:text="Age: 29"
         android:textSize="25dp"
+        android:textColor="#33BEFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recordLbl" />
 
@@ -60,6 +65,7 @@
         android:layout_marginTop="48dp"
         android:text="Name: Kevin Holland"
         android:textSize="25dp"
+        android:textColor="#33BEFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fighter11lbl" />
 
@@ -71,6 +77,7 @@
         android:layout_marginTop="28dp"
         android:text="Nickname: Trailblazer"
         android:textSize="25dp"
+        android:textColor="#33BEFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/townLbl" />
 
@@ -82,6 +89,7 @@
         android:layout_marginTop="28dp"
         android:text="Weight Class: Welterweight"
         android:textSize="25dp"
+        android:textColor="#33BEFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
 

@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fighters8">
+    tools:context=".Fighters8"
+    android:background="#666666">
 
     <TextView
         android:id="@+id/fighter8lbl"
@@ -14,6 +15,7 @@
         android:text="Fighter 8"
         android:textAlignment="center"
         android:textSize="30dp"
+        android:textColor="#FF3B3B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +29,7 @@
         android:layout_marginTop="28dp"
         android:text="Hometown: Miami, United States"
         android:textSize="25dp"
+        android:textColor="#FF3B3B"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameLbl8" />
 
@@ -38,6 +41,7 @@
         android:layout_marginTop="28dp"
         android:text="Age: 37"
         android:textSize="25dp"
+        android:textColor="#1300FF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recordLbl" />
 
@@ -49,6 +53,7 @@
         android:layout_marginTop="28dp"
         android:text="Record: 35 - 15 - 0"
         android:textSize="25dp"
+        android:textColor="#1300FF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nickNameLbl" />
 
@@ -60,6 +65,7 @@
         android:layout_marginTop="60dp"
         android:text="Name: Jorge Masvidal"
         android:textSize="25dp"
+        android:textColor="#FF3B3B"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fighter8lbl" />
 
@@ -81,6 +87,7 @@
         android:layout_marginTop="28dp"
         android:text="Weight Class: Welterweight"
         android:textSize="25dp"
+        android:textColor="#1300FF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
 
@@ -92,6 +99,7 @@
         android:layout_marginTop="28dp"
         android:text="Nickname: Gamebred"
         android:textSize="25dp"
+        android:textColor="#1300FF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/townLbl" />
 

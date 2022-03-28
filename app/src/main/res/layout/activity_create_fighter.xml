@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreateFighter">
+    tools:context=".CreateFighter"
+    android:background="@color/fui_linkColor">
 
     <Button
         android:id="@+id/createBtn"
@@ -12,10 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:text="CREATE"
+        android:textColor="#010203"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -24,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Creating Fighter"
-        android:textSize="30dp"
+        android:textSize="35dp"
+        android:textColor="#010203"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +40,7 @@
         android:layout_marginTop="64dp"
         android:text="Name:"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewCreatedFighter" />
 
@@ -48,6 +52,7 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:hint="Branden"
+        android:textColor="#010203"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewCreatedFighter" />
@@ -59,6 +64,7 @@
         android:layout_marginTop="36dp"
         android:text="Hometown:"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewName" />
 
@@ -69,6 +75,7 @@
         android:layout_marginTop="44dp"
         android:text="Nickname:"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewHometown" />
 
@@ -82,6 +89,7 @@
         android:hint="The Beast"
         android:inputType="textPersonName"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
@@ -95,6 +103,7 @@
         android:hint="Orillia, Canada"
         android:inputType="textPersonName"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
@@ -108,6 +117,7 @@
         android:hint="Lighweight"
         android:inputType="textPersonName"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 
@@ -118,6 +128,7 @@
         android:layout_marginTop="48dp"
         android:text="Weight Class:"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewAge" />
 
@@ -131,6 +142,7 @@
         android:hint="50-0"
         android:inputType="textPersonName"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
@@ -144,6 +156,7 @@
         android:hint="20"
         android:inputType="textPersonName"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
@@ -154,6 +167,7 @@
         android:layout_marginTop="52dp"
         android:text="Record:"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewNickname" />
 
@@ -164,6 +178,7 @@
         android:layout_marginTop="52dp"
         android:text="Age:"
         android:textSize="20dp"
+        android:textColor="#010203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewRecord" />
 

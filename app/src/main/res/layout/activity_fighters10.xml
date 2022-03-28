@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fighters10">
+    tools:context=".Fighters10"
+    android:background="#666666">
 
     <TextView
         android:id="@+id/fighter10lbl"
@@ -14,6 +15,7 @@
         android:text="Fighter 10"
         android:textAlignment="center"
         android:textSize="30dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +29,7 @@
         android:layout_marginTop="48dp"
         android:text="Name: Bryce Mitchell"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fighter10lbl" />
 
@@ -38,6 +41,7 @@
         android:layout_marginTop="24dp"
         android:text="Weight Class: Featherweight"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ageLbl" />
 
@@ -59,6 +63,7 @@
         android:layout_marginTop="24dp"
         android:text="Hometown: Texarkana, United States"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameLbl10" />
 
@@ -70,6 +75,7 @@
         android:layout_marginTop="24dp"
         android:text="Nickname: Thug Nasty"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/townLbl" />
 
@@ -81,6 +87,7 @@
         android:layout_marginTop="24dp"
         android:text="Age: 27"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recordLbl" />
 
@@ -92,6 +99,7 @@
         android:layout_marginTop="24dp"
         android:text="Record: 15 - 1 - 0"
         android:textSize="25dp"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nickNameLbl" />
 
