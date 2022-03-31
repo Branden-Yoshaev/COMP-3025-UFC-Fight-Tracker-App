@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UFC272">
+    tools:context=".UFC272"
+    android:background="@color/browser_actions_text_color">
 
     <TextView
         android:id="@+id/ufc272Lbl"
@@ -15,7 +16,8 @@
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/vsLbl4"
@@ -27,7 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ufc272Lbl" />
+        app:layout_constraintTop_toBottomOf="@+id/ufc272Lbl"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/btnfighter9"
@@ -79,7 +82,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vsLbl4" />
+        app:layout_constraintTop_toBottomOf="@+id/vsLbl4"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/btnfighter10"
@@ -132,7 +136,8 @@
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vsLbl5" />
+        app:layout_constraintTop_toBottomOf="@+id/vsLbl5"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/backBtn2"
